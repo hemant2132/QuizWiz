@@ -1,6 +1,6 @@
 # QuizWiz
 
-A platform to test and increase your knowledge! 😄
+### A platform to test and increase your knowledge! 😄
 
 ### Features
 
@@ -14,13 +14,13 @@ A platform to test and increase your knowledge! 😄
 
 ### About
 
--   This is a Second Semester (B. Tech.) Course Project.
+-   This is a Second Semester (BTech) Course Project.
 -   It has been Implemented entirely in C and makes effective use of file handling.
 -   Team:
-    -   **Anidya Vajpayee**
-    -   **Hemant Panwar**
-    -   **Praveen Mishra**
-    -   **Ramji Rathore**
+    -   [**Anidya Vajpayee**](https://github.com/anidya)
+    -   [**Hemant Panwar**](https://github.com/hemant2132)
+    -   [**Praveen Mishra**](https://github.com/praveen1609)
+    -   [**Ramji Rathore**](https://github.com/ramjirathore)
 -   Duration: **Feb'19-May'19**
 
 ### [Demo Video](https://drive.google.com/file/d/1jG31t1eoAF4N3Eyys6DAE9TY_DnEQ-Az/view?usp=sharing)
