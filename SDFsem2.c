@@ -67,6 +67,7 @@ void fordelay(int j)
         k=i;
 }
 
+// Landing page of game
 void start()
 {
     int op,x;
@@ -92,6 +93,7 @@ void start()
     }while(!x);
 }
 
+// For hidden admin controls
 void admin()
 {
     struct node *tmp=(struct node*)malloc(sizeof(struct node));
@@ -116,6 +118,7 @@ int check(char u[20])
     return 1;
 }
 
+// For signing in the user
 void sign()
 {
     clr();
@@ -246,6 +249,7 @@ void sign()
 
 }
 
+// For signing up the user
 void signup()
 {
     wow=0;
@@ -279,6 +283,7 @@ void signup()
     start();
 }
 
+// Matches the name and password of user
 int srch(char u[],char p[])
 {
     int f=0;
@@ -306,6 +311,7 @@ int srch(char u[],char p[])
     return f;
 }
 
+// Asks the login data from user
 void login()
 {
     int x,i;
@@ -357,6 +363,7 @@ void login()
     start();
 }
 
+
 void update(char un[20])
 {
     struct node *tmp=(struct node*)malloc(sizeof(struct node));
@@ -383,6 +390,7 @@ void update(char un[20])
 
 }
 
+// Homepage for user
 void menu()
 {
     clr();
