@@ -468,7 +468,7 @@ void menu()
   }
 }
 
-/*--------------------PLAY QUIZ--------------------*/
+/*--------------------QUIZ--------------------*/
 
 // play quiz menu
 void play()
@@ -581,7 +581,7 @@ void achieve()
   play();
 }
 
-// quiz - question-set handler
+// question-set handler
 void root_set()
 {
   ob->score = 0;
@@ -608,7 +608,7 @@ void root_set()
   }
 }
 
-// quiz - question header
+// question-header display
 void afans()
 {
   getch();
@@ -623,7 +623,7 @@ void afans()
   printf("\n\n");
 }
 
-// quiz - when option 'a' is correct
+// when option 'a' is correct
 void ansa(char a)
 {
   printf("\n");
@@ -640,7 +640,7 @@ void ansa(char a)
     printf("wrong input"), ob->strk = 0;
 }
 
-// quiz - when option 'b' is correct
+// when option 'b' is correct
 void ansb(char a)
 {
   printf("\n");
@@ -657,7 +657,7 @@ void ansb(char a)
     printf("wrong input"), ob->strk = 0;
 }
 
-// quiz - when option 'c' is correct
+// when option 'c' is correct
 void ansc(char a)
 {
   printf("\n");
@@ -674,7 +674,7 @@ void ansc(char a)
     printf("wrong input"), ob->strk = 0;
 }
 
-// quiz - when option 'd' is correct
+// when option 'd' is correct
 void ansd(char a)
 {
   printf("\n");
@@ -691,7 +691,7 @@ void ansd(char a)
     printf("wrong input"), ob->strk = 0;
 }
 
-// quiz - give remark on quiz completion
+// give remark on quiz completion
 void remark()
 {
   printf("Remark:");
@@ -725,7 +725,7 @@ void remark()
   printf("\n");
 }
 
-// quiz - question set 1
+// question set 1
 void set1()
 {
   char a;
@@ -769,7 +769,7 @@ void set1()
   getch();
 }
 
-// quiz - question set 2
+// question set 2
 void set2()
 {
   char a;
@@ -813,7 +813,7 @@ void set2()
   getch();
 }
 
-// quiz - question set 3
+// question set 3
 void set3()
 {
   char a;
@@ -857,7 +857,7 @@ void set3()
   getch();
 }
 
-// quiz - question set 4
+// question set 4
 void set4()
 {
   char a;
@@ -901,7 +901,7 @@ void set4()
   getch();
 }
 
-// quiz - question set 5
+// question set 5
 void set5()
 {
   char a;
@@ -1112,6 +1112,8 @@ struct node1
 };
 
 struct node1 *current = NULL, *head = NULL;
+
+// create linked list
 void create(struct node *p)
 {
   printf("%s\n", p->uname);
@@ -1145,6 +1147,7 @@ void create(struct node *p)
   }
 }
 
+// sort linked list
 void sortll(struct node1 *first)
 {
   struct node1 *new1 = first;
@@ -1209,6 +1212,7 @@ void sortll(struct node1 *first)
   }
 }
 
+// display leaderboard
 void display(struct node1 *first)
 {
   clr();
@@ -1225,6 +1229,7 @@ void display(struct node1 *first)
   }
 }
 
+// leaderboard handler
 void leaderb()
 {
   clr();
